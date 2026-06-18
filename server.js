@@ -6,7 +6,7 @@ const path = require("path");
 
 loadEnvFile(path.join(__dirname, ".env"));
 
-const PORT = Number(process.env.PORT || 8787);
+const PORT = Number(process.env.PORT || 8080);
 const LICENSE_SECRET = process.env.LICENSE_SECRET || "ELIJAH-CHANGE-THIS-SECRET-BEFORE-RELEASE-2026";
 const DISCORD_PUBLIC_KEY = process.env.DISCORD_PUBLIC_KEY || "";
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL || "";
